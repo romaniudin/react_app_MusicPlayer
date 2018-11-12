@@ -1,0 +1,58 @@
+body {
+    color: white;
+    height: 200px;
+    background-color: black;
+}
+
+#songDetails {
+    border-bottom: 1px solid white;
+}
+#detailsLink {
+    float:left;
+}
+
+table {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+}
+table a,.th, #detailsLink, marquee, #songDescription {
+    color: white;
+    font-size: 20px;
+}
+td {
+    padding: 0 10px;
+}
+
+#playList {
+    font-weight: bold;
+}
+
+.waves-effect {
+    margin: 2px;
+}
+
+.songsList {
+    float:left;
+    position: absolute;
+    z-index: 1;
+}
+
+#image {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+} 
+
+h2 {
+    margin-top: 0;
+}
+
+#detailsBnt {
+    margin-left: 20px;
+}
+
+marquee, #playList, h2, table, #songDescription {
+    font-family: 'Poor Story', cursive;
+}
